@@ -1,65 +1,44 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja strona</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <h1 class="logo">Moja strona</h1>
-        <nav class="menu">
-            <a href="#o-mnie">O mnie</a>
-            <a href="#projekty">Projekty</a>
-            <a href="#kontakt">Kontakt</a>
-        </nav>
-    </header>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Web Page</title>
+    </head>
+    <body>
+        <header>
+            <h1>Hello World!</h1>
+            <nav>
+                <a href="#o-mnie">O mnie</a>
+                <a href="#projekty">Projekty</a>
+                <a href="#kontakt">Kontakt</a>
+            </nav>
+        </header>
+        <main>
+            <section id="o-mnie">
+                <h2>O mnie</h2>
+                <img src="images/sometimes.jpg" alt="Sometimes">
+                <p>This is my first web page.</p>
+            </section>
+            
+            <section id="projekty">
+                <h2>Projekty</h2>
+                <u1>
+                    <li>Projekt pierwszy</li>
+                    <li>Projekt drugi</li>
+                    <li>Projekt trzeci</li>
+                </u1>
+            </section>
 
-    <main>
-        <section class="hero">
-            <h2>Witam</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-            <a class="button" href="#projekty">Zobacz projekty</a>
-        </section>
+            <section id="kontakt">
+                <h2>Kontakt</h2>
+                <p>Napisz do mnie: <a href="mailto:twoj@email.pl">twoj@email.pl</a></p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Imię Nazwisko</p>
+        </footer>
+    </body>
 
-        <section id="o-mnie" class="section">
-            <h2>O mnie</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Sequi delectus qui officia. Voluptatum ipsa tempora deleniti reprehenderit reiciendis laudantiu
-                m voluptate, officia aliquid hic ratione, voluptates libero ex explicabo quibusdam maiores?
-            </p>
-        </section>
-
-        <section id="projekty" class="section">
-            <h2>Projekty</h2>
-            <div class="cards">
-                <article class="card">
-                    <h3>Projekt 1</h3>
-                    <p>Krótki opis pierwszego projektu.</p>
-                </article>
-                <article class="card">
-                    <h3>Projekt 2</h3>
-                    <p>Krótki opis drugiego projektu.</p>
-                </article>
-                <article class="card">
-                    <h3>Projekt 3</h3>
-                    <p>Krótki opis trzeciego projektu.</p>
-                </article>
-            </div>
-        </section>
-
-        <section id="kontakt" class="section">
-            <h2>Kontakt</h2>
-            <p>E-mail: <a href="mailto:jan@example.com">jan@example.com</a></p>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>&copy; 2026 Moja strona</p>
-    </footer>
-</body>
 </html>
-
-
