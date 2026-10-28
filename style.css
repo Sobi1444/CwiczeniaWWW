@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-html {
+            html {
                 font-size: 22px
             }
 
@@ -31,12 +31,14 @@ html {
                 max-width: 800px;
                 margin: 0 auto;
             }
+
             section {
                 margin-bottom: 3rem;
             }
 
             a {
                 color: #4fc3f7;
+
             }
 
             img {
@@ -45,7 +47,7 @@ html {
                 max-width: 100%;
                 height: auto;
                 border-radius: 12px;
-                
+
             }
 
             footer {
