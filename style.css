@@ -55,3 +55,12 @@
                 background-color: #222;
                 font-size: 0.8rem;
             }
+
+            .navbar-gradient {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+
+            .logo {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
